@@ -1,0 +1,142 @@
+
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interests</title>
+     <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #0047ab;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+
+        nav ul li a:hover,
+        nav ul li:hover > a {
+            background-color: #575757;
+        }
+
+        nav ul li .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        nav ul li .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        nav ul li:hover .dropdown-content {
+            display: block;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2, h3 {
+            color: #333;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+            position: relative;
+
+        }
+    </style>
+
+</head><body>
+    <header>
+        <h1>Welcome to Cen Sun's Personal Webpage</h1>
+    </header>
+    <nav>
+        <ul>
+             <li><a href="https://webofcen.github.io">Home</a></li>
+                <li><a href="https://webofcen.github.io/about">About Me</a></li>
+                <li class="dropdown">
+                    <a href="https://webofcen.github.io/works" class="dropbtn">Works</a>
+                    <div class="dropdown-content">
+                        <a href="https://webofcen.github.io/works/papers.html">Papers</a>
+                        <a href="https://webofcen.github.io/works/ideas.html">Ideas</a>
+                    </div>
+                </li>
+                <li><a href="https://webofcen.github.io/interests">Interests</a></li>
+                <li><a href="https://webofcen.github.io/contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="contact-me">
+            <h1>Contact Me</h1>
+            <p>If you have any questions or would like to connect, feel free to reach out to me:</p>
+            <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+            <p><strong>Email:</strong> john.doe@example.com</p>
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/user/johndoe" target="_blank.jpg">YouTube</a></li>
+                <li><a href="https://www.bilibili.com/user/johndoe" target="_blank">Bilibili</a></li>
+                <li><a href="https://github.com/johndoe" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/johndoe" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        © 2024 Cen Sun - All Rights Reserved
+    </footer>
+
+
+</body></html>
