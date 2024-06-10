@@ -3,6 +3,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Cen Sun's personal website</title>
      <link rel="stylesheet" href="styles.css">
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #0047ab;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+
+        nav ul li a:hover,
+        nav ul li:hover > a {
+            background-color: #575757;
+        }
+
+        nav ul li .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        nav ul li .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        nav ul li:hover .dropdown-content {
+            display: block;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2, h3 {
+            color: #333;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+            position: fixed;
+
+        }
+    </style>
 </head><body>
     <header>
         <h1>Welcome to Cen Sun's Personal Webpage</h1>
