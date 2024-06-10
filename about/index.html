@@ -1,8 +1,7 @@
-<html lang="en">
-  <head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About| Cen Sun</title>
+    <title>About | Cen Sun</title>
      <link rel="stylesheet" href="styles.css">
  <style>
         body {
@@ -67,6 +66,17 @@
             padding: 20px;
         }
 
+footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+            position: relative;
+
+        }
+     
         h2, h3 {
             color: #333;
         }
@@ -86,16 +96,31 @@
             margin-top: 10px;
         }
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            bottom: 0;
-            width: 100%;
-            position: relative;
+    section#about {
+    position: relative; /* 相对定位，为图片浮动做准备 */
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-        }
+.personal-image {
+    position: absolute; /* 绝对定位，从section中脱离 */
+    right: 190px; /* 距离右侧的边距 */
+    top: 20px; /* 距离顶部的边距 */
+    width: 250px; /* 图片容器的宽度 */
+    height: auto; /* 图片容器的高度 */
+}
+
+.personal-image img {
+    width: 100%; /* 图片宽度占满容器 */
+    height: auto; /* 高度自适应 */
+    border-radius: 50%; /* 圆形图片效果 */
+    object-fit: cover; /* 保持图片比例填充容器 */
+}
+
+}
+        
     </style>
 </head><body>
     <header>
@@ -133,17 +158,21 @@
             <h2>Bio</h2>
             <p>I am a passionate individual who loves exploring new ideas and sharing my thoughts with others. This is a platform that I try to use my knowledge from school to create a useful wwebsite. I love business world, but annoy with the current profit-orienting world and would like to change it! On this website, I will be sharing some of my ideas as the form of essay about the economic world and any other fields. I am trying ot make a connection to different ideas from different culture and spread my own country's traditional culture! <br>
               Also, I will post some of my daily events that I think is valuable for sharing! Hope you will like it! Seeya!
-              </p>
+              </p><div class="personal-image">
+        <img src="personal_image.jpg" alt="Personal Image">
+    </div>
+            <section id="other">
             <h2>Education</h2>
             <p>High School: Beijing National Day School</p>
             <p>Ideal College Country: United States, Austrilia, United Kindom</p>
             <h2>Resume</h2>
             <a href="resume.pdf" download="">Download My Resume</a>
         </section>
-    </main>
+    </section></main>
     <footer>
         © 2024 Cen Sun - All Rights Reserved
     </footer>
+
 
 
 </body></html>
