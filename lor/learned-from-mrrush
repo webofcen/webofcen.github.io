@@ -1,1 +1,202 @@
-p
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cen Sun - Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0047ab;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+
+        .interests {
+            padding: 10px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        p2 {
+            font-family: Arial, sans-serif;
+            color: blue;
+            margin: 0;
+            padding: 0; 
+        }
+
+        p1 {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0; 
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .request-form {
+            margin-top: 20px;
+        }
+
+        .request-form p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Cen Sun's Personal Webpage</h1>
+    </header>
+
+    <nav>
+        <a href="https://webofcen.github.io/index.html">Home</a>
+        <a href="https://webofcen.github.io/about.html">About Me</a>
+        <a href="https://webofcen.github.io/ideas.html">Ideas</a>
+        <a href="https://webofcen.github.io/activities.html">Activities</a>
+        <a href="https://webofcen.github.io/works.html">Work</a>
+        <a href="https://webofcen.github.io/contact.html">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <h2>Reflections on the Economics of Life: What I learned from Mr. Rush</h2>
+    <p> <font size="4.5"><b>Click Here to Download File: </b><a href="Sam_Mr. Rush_LoR.pdf" download="">Sam-Mr. Rush-LoR</a></font>
+    </p>
+        <p>Dear Mr. Robert Rush, <br><br>
+
+Hoping you are all doing well with your preparation back to America! And I am writing this letter to express my emotions and share with you my gaining throughout the entire year, and also something that I prepared for you :)<br><br>
+
+You are, and will always be one of my favorite teachers in my entire student life, your enthusiasm, dedication, care and love for the students attract me and will always be remembered. As I wrote in my recommendation request letter, you are the one who made me start to love economics, in terms of real humans, instead of seeking it as a career opportunity, I am really fascinated by the core of economics. <br><br>
+
+Although I did not do well in the final, it helped me be aware that in learning economics I still have a long way to go. All the questions that appear in the final as well as on the sample questions are all the great opportunities for me to think again and figure out what is the real answer, practicing thinking like a real economist, not a dumb machine. Thank you so much, Mr. Rush! Thank you so much for creating those questions for us!<br><br>
+
+I am so lucky that I can have you as my first economics teacher, helping me build a solid idea about what economics is, without being misled by the ordinary teacher who teaches only exam questions. You are the beacon of my way of economics, and I feel really honored to have you as my economics teacher. Thinking that maybe serendipity made me meet you, but truly your genuine love for economics and forever support for students make me your student. It is a great honor for me. <br><br>
+
+As you are leaving now, hope the little party that we planned will give you a little warmth and can feel better as during a tired time of leaving the used place. And when you back to America, to those little islands as a high school teacher, I believe, no doubt, that the student will learn so much from your broad knowledge and find a real passion for learning, no matter what subject you will teach. Your attitude towards life and passion for learning will absolutely affect your new students, and they will be able to have a more solid basis than others. You are a great teacher and a great friend, and hope that more people will be able to know you and learn your ideas. Hope everything will go smoothly both the way back and in America, hope you and your parents will never face big health problems and will foreverly have a happy life. <br><br>
+
+In all, please take care, and I wish you all the best!!!<br><br><br>
+
+
+Best Best Best Wishes!!!<br><br>
+
+Cen(Sam) Sun<br>
+
+</p>
+
+Your student from BNDS 2025<p></p><br>
+
+   <p><font size="4.5"><strong>A little song for you:</strong></font><br></p><p>
+   <strong>Name:</strong> For Mr. Rush<br>
+   <strong>Artist:</strong> Sam&amp;AI<br>
+   <strong>Time:</strong> 3:33<br>
+   </p><p></p>
+    <div style="text-align: center;">
+       <strong>Lyrics</strong> <br>
+       <p></p>
+<i>[Verse]<br>
+Everything is fine except it’s not<br>
+In the long run we're all dead<br>
+Economics in every thought<br><br>
+
+[Verse 2]<br>
+Cocobolo rings where relax is sought<br>
+Hey you guys are cute he said<br>
+Everything is fine except it’s not<br><br>
+
+[Chorus]<br>
+Be skeptical and question a lot<br>
+From reading and thinking knowledge spread<br>
+Economics in every thought<br><br>
+[Verse 3]<br>
+In his wisdom we were caught<br>
+Guided by the lessons fed<br>
+Everything is fine<br><br>
+
+[Chorus]<br>
+Questions and curiosity he brought<br>
+Ask why never let your mind be led<br>
+Economics in every thought<br><br>
+
+[Bridge]<br>
+His teachings care never forgot<br>
+We remember each word he said<br>
+Everything is Economics<br><br>
+
+[Ending]<br>
+Bye, Mr. Rush<br>
+wishing all the best<br>
+see you <br></i>
+       <br><br><br>
+       <strong>Song</strong><br><br>
+       <audio controls="">
+    <source src="For Mr. Rush.mp3" type="audio/mpeg">
+    Your browser does not support audio element.
+</audio>
+   
+   </div>
+   
+   <p></p> 
+
+        
+        <font size="4.5"><div style="text-align: center;"><p2><strong>Thank you, Mr. Rush, for your help and support the whole year! <br>We will miss you! Our deer teacher and friend!!!</strong></p2></div></font> <br>
+            
+    </div>
+
+    <footer>
+        © 2024 Cen Sun - All Rights Reserved
+    </footer>
+
+
+
+</body></html>
