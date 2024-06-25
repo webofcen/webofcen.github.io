@@ -96,7 +96,14 @@
 
         }
          @media(max-width: 648px) {
-              footer{
+              nav ul li {
+                display: block; /* 列表项垂直排列 */
+            }
+            nav ul li .dropdown-content {
+                position: static; /* 子菜单不再绝对定位 */
+            }
+
+             footer{
                   position: relative;
               }}
     </style>
