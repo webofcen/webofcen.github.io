@@ -95,6 +95,14 @@
             position: relative;
 
         }
+     @media(max-width: 648px) {
+              nav ul li {
+                display: block; /* 列表项垂直排列 */
+            }
+            nav ul li .dropdown-content {
+                position: static; /* 子菜单不再绝对定位 */
+            }
+
     </style>
 </head><body>
     <header>
