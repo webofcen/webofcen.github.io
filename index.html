@@ -95,6 +95,18 @@
             position: fixed;
 
         }
+         @media(max-width: 648px) {
+             footer {
+                 position: relative;
+             }
+             nav ul li {
+                display: block; /* 列表项垂直排列 */
+            }
+            nav ul li .dropdown-content {
+                position: static; /* 子菜单不再绝对定位 */
+            }
+
+         }
     </style>
 </head><body>
     <header>
@@ -126,6 +138,7 @@
     <footer>
         © 2024 Cen Sun - All Rights Reserved
     </footer>
+
 
 
 </body></html>
