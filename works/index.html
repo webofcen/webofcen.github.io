@@ -125,6 +125,13 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        @media(max-width: 648px) {
+              nav ul li {
+                display: block; /* 列表项垂直排列 */
+            }
+            nav ul li .dropdown-content {
+                position: static; /* 子菜单不再绝对定位 */
+            }
     </style>
 </head>
 <body>
@@ -167,6 +174,7 @@
     <footer>
         © 2024 Cen Sun - All Rights Reserved
     </footer>
+
 
 
 </body></html>
