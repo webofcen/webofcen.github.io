@@ -81,20 +81,13 @@ footer {
             color: #333;
         }
 
-        article {
-            margin-bottom: 20px;
-            padding: 10px;
-            background-color: white;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
         img {
             max-width: 100%;
             height: auto;
             display: block;
             margin-top: 10px;
         }
+
 
     section#about {
     position: relative; /* 相对定位，为图片浮动做准备 */
@@ -106,9 +99,9 @@ footer {
 
 .personal-image {
     position: absolute; /* 绝对定位，从section中脱离 */
-    right: 190px; /* 距离右侧的边距 */
-    top: 20px; /* 距离顶部的边距 */
-    width: 250px; /* 图片容器的宽度 */
+    right: 50px; /* 距离右侧的边距 */
+    top: 35px; /* 距离顶部的边距 */
+    width: 200px; /* 图片容器的宽度 */
     height: auto; /* 图片容器的高度 */
 }
 
@@ -118,6 +111,32 @@ footer {
     border-radius: 50%; /* 圆形图片效果 */
     object-fit: cover; /* 保持图片比例填充容器 */
 }
+     @media (max-width: 648px) {
+            section#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 水平居中 */
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+         .personal-image {
+                position: static; /* 移除绝对定位，让图片跟随文档流 */
+                margin-bottom: 20px; /* 图片与文字之间的间距 */
+            }
+            /* 调整文章的内边距，确保在小屏幕上有足够的空间 */
+            article {
+                padding: 10px;
+            }
+            /* 调整导航栏样式以适应小屏幕 */
+            nav ul li {
+                display: block; /* 列表项垂直排列 */
+            }
+            nav ul li .dropdown-content {
+                position: static; /* 子菜单不再绝对定位 */
+            }
+        }
 
 }
         
@@ -145,6 +164,10 @@ footer {
     <main>
         <section id="about">
             <h1>About Me</h1>
+            <div class="personal-image">
+        <img src="personal_image.jpg" alt="Personal Image">
+    </div>
+            <artcle>
             <p>Name: Cen Sun</p>
             <p>Age: 16</p>
             <p>Ethnicity: Asian, Chinese</p>
@@ -158,20 +181,20 @@ footer {
             <h2>Bio</h2>
             <p>I am a passionate individual who loves exploring new ideas and sharing my thoughts with others. This is a platform that I try to use my knowledge from school to create a useful wwebsite. I love business world, but annoy with the current profit-orienting world and would like to change it! On this website, I will be sharing some of my ideas as the form of essay about the economic world and any other fields. I am trying ot make a connection to different ideas from different culture and spread my own country's traditional culture! <br>
               Also, I will post some of my daily events that I think is valuable for sharing! Hope you will like it! Seeya!
-              </p><div class="personal-image">
-        <img src="personal_image.jpg" alt="Personal Image">
-    </div>
-            <section id="other">
+              </p>
+          
             <h2>Education</h2>
             <p>High School: Beijing National Day School</p>
             <p>Ideal College Country: United States, Austrilia, United Kindom</p>
             <h2>Resume</h2>
             <a href="resume.pdf" download="">Download My Resume</a>
+                  </artcle>
         </section>
-    </section></main>
+    </main>
     <footer>
         © 2024 Cen Sun - All Rights Reserved
     </footer>
+
 
 
 
