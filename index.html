@@ -105,8 +105,35 @@
             nav ul li .dropdown-content {
                 position: static; /* 子菜单不再绝对定位 */
             }
-
+             
          }
+         .letter {
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 5px solid #000;
+  quotes: "\"" "\"";
+}
+ 
+.letter::before {
+  content: open-quote;
+  font-size: 30px;
+  color: #333;
+  position: absolute;
+  left: 10px;
+  top: -20px;
+}
+ 
+.letter p {
+  margin: 0;
+  line-height: 1.5;
+}
+ 
+.letter signature {
+  text-align: right;
+  font-style: italic;
+  font-size: 14px;
+}
+
     </style>
 </head><body>
     <header>
@@ -130,14 +157,31 @@
     </nav>
     <main>
         <div class="main-content">
-        <h2>Welcome!</h2>
+        <h2>Welcome, welcome, welcome!!!</h2>
         <p>Welcome to my personal webpage! I am Cen Sun, high shool student at Beijing National Day School. This is my website for sharing my activities and thoughts about my academic interest! Here you can find information about me, my interests, activities, work, and my contact information.</p>
-        <p>Feel free to explore the sections above to learn more about me.</p>
-    </div>
+        <p>Feel free to explore the sections above to learn more about me.</p><br>
+   
+   <blockquote class="letter">
+        <h2>Why I made this website</h2>
+  <p>As a high school student, from what I think, I have a lot of fun in my life. But there are too many things to remember all of them. I am a purpose who miss the past memories and will often go through my past times to refresh my mind with those pure, lovely memories; also, the importance of learning from the past. Therefore, this website is a collection of my activities that I think are valuable to memory and look back again, and will always reminds me something important(either lessons or greetings). Hopefully some pieces of my activity will remind you with your past memmories and would be able to feel young, and energetic with the not so greatful world :)<br><br>
+
+        Take Care, and wish you all the best!
+        <br><br>
+        Cen Sun
+        <br>
+        Written at June, 2024
+
+        </p>
+</blockquote>
+
+        
+    
+    <p></p></div>
     </main>
     <footer>
         © 2024 Cen Sun - All Rights Reserved
     </footer>
+
 
 
 
